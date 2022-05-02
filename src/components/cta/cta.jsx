@@ -1,12 +1,12 @@
 import React from 'react'
 import './cta.css'
 
-const CallToAction = () => {
+const CTA = () => {
   return (
       <div>
-          CallToAction
+          CTA
       </div>
   )
 }
 
-export default CallToAction
+export default CTA
