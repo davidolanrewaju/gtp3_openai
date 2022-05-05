@@ -62,7 +62,7 @@
   cursor: pointer;
 }
 
-.gpt__navbar-menu {
+.gpt3__navbar-menu {
   margin-left: 1rem;
 
   display: none;
@@ -82,7 +82,7 @@
   background: var(--color-footer);
   padding: 2rem;
   position: absolute;
-  top: 50px;
+  top: 40px;
   right: 0;
   margin-top: 1rem;
   min-width: 210px;
@@ -122,5 +122,13 @@
 
   .gpt3__navbar-sign {
     display: none;
+  }
+
+  .gpt3__navbar-menu_container {
+    top: 20px;
+  }
+
+  .gpt3__navbar-menu_container-links-sign {
+    display: block;
   }
 }
