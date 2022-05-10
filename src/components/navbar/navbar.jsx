@@ -12,13 +12,13 @@ const Navbar = () => {
         <a href="#home">Home</a>
       </p>
       <p>
-        <a href="#wgpt3">What is GPT?</a>
+        <a href="#whatgpt3">What is GPT?</a>
       </p>
       <p>
-        <a href="#possibility">Open AI</a>
+        <a href="#features">Open AI</a>
       </p>
       <p>
-        <a href="#features">Case Studies</a>
+        <a href="#possibility">Case Studies</a>
       </p>
       <p>
         <a href="#blog">Library</a>

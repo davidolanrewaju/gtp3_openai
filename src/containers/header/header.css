@@ -14,7 +14,7 @@
 .gpt3__header-content h1 {
   font-family: var(--font-family);
   font-weight: 800;
-  font-size: 62px;
+  font-size: 58px;
   line-height: 75px;
   letter-spacing: -0.04em;
 }
@@ -23,7 +23,7 @@
   font-family: var(--font-family);
   font-style: normal;
   font-weight: 400;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 27px;
   color: var(--color-text);
 
