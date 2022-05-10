@@ -1,0 +1,105 @@
+.gpt3__cta {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+
+    padding: 2rem;
+    margin: 4rem;
+    border-radius: 1rem;
+    background: var(--gradient-bar);
+}
+
+.gpt3__cta-content p{
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 30px;
+    color: #0E0E0E;
+}
+
+.gpt3__cta-content h3{
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 45px;
+    color: #000000;
+}
+
+.gpt3__cta-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2rem;
+}
+.gpt3__cta-btn button{
+    padding: 0.5rem 1rem;
+    background: #000000;
+    border-radius: 40px;
+
+    font-family: var(--font-family);
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 30px;
+    color: #FFFFFF;
+
+    border: none;
+    outline: none;
+    cursor: pointer;
+    min-width: 150px;
+}
+
+@media screen and (max-width: 990px){
+    .gpt3__cta{
+        margin-top: -3rem;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .gpt3__cta{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: -4rem;
+    }
+    .gpt3__cta-content p{
+        text-align: center;
+    }
+    .gpt3__cta-content h3{
+        text-align: center;
+        line-height: 25px;
+    }
+    .gpt3__cta-btn{
+        margin-top: 1.5rem;
+        margin-left: 0;
+    }
+}
+
+@media screen and (max-width: 570px) {
+    .gpt3__cta{
+        margin: 4rem 2rem;
+        margin-top: -4rem;
+    }
+    .gpt3__cta-content h3{
+        font-size: 18px;
+        text-align: center;
+        line-height: 20px;
+    }
+        .gpt3__cta-content p{
+        text-align: center;
+        line-height: 45px;
+    }
+
+}
+
+@media screen and (max-width: 325px){
+    .gpt3__cta-content h3{
+        font-size: 15px;
+    }
+    .gpt3__cta-content p{
+        font-size: 11px;
+    }
+    .gpt3__cta-btn button{
+        font-size: 15px;
+    }
+}
