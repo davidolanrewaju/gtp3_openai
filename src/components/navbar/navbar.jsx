@@ -21,7 +21,7 @@ const Navbar = () => {
         <a href="#CaseStudies">Case Studies</a>
       </p>
       <p>
-        <a href="#blog">Library</a>
+        <a href="#library">Library</a>
       </p>
     </>
   );
